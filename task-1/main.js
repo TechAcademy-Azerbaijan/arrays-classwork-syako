@@ -13,7 +13,7 @@ prompt.get('input', function (err, result) {
     var n = parseInt(input_data[0]); // Massivin element sayı. Nümunə - 5
     var arr = input_data[1].split(' '); // Daxil edilmiş massiv. Nümunə - ['2', '4', '7', '12', '9']
     let res = 0
-for(i = 1 ; i < arr.length ; i++){
+for(i = 0 ; i < arr.length ; i++){
     res = res + arr[i]
 }console.log(res);
 });
